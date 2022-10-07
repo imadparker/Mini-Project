@@ -85,7 +85,7 @@ class PickAndChoose {
       this.audioController.flip();
       this.totalClicks++;
       this.ticker.innerText = this.totalClicks;
-      if (this.totalClicks === 0) this.gameOver();
+      if (this.totalClicks === 30) this.gameOver();
       card.classList.add("visible");
 
       if (this.cardToCheck) {
