@@ -24,7 +24,7 @@ html {
   
   .game-info {
     font-family:  serif;
-    color: #fff3f3;
+    color: #ffffff;
     font-size: 4em;
   }
   
@@ -157,26 +157,4 @@ html {
     right: 15px;
   }
   
-  .side-link {
-    font-family: Raleway;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin-bottom: 10px;
-    color: white;
-    width: 180px;
-    padding: 10px 0;
-    border-radius: 10px;
-  }
-  
-  .side-link-text {
-    margin-left: 10px;
-    font-size: 18px;
-  }
-  
-  .side-link-icon {
-    color: white;
-    font-size: 30px;
-  }
   
