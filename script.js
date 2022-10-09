@@ -29,6 +29,10 @@ class AudioController {
     this.stopMusic();
     this.gameOverSound.play();
   }
+  OutOFFlips() {
+    this.stopMusic();
+    this.gameOverSound.play();
+  }
 }
 
 class PickAndChoose {
@@ -69,6 +73,11 @@ class PickAndChoose {
     this.audioController.gameOver();
     document.getElementById("game-over-text").classList.add("visible");
   }
+  OutOFFlips() {
+    clearInterval(this.countdown);
+    this.audioController.OutOFFlips();
+    document.getElementById("Out-OF-Flips-text").classList.add("visible");
+  }
   victory() {
     clearInterval(this.countdown);
     this.audioController.victory();
@@ -85,7 +94,7 @@ class PickAndChoose {
       this.audioController.flip();
       this.totalClicks++;
       this.ticker.innerText = this.totalClicks;
-      if (this.totalClicks === 30) this.gameOver();
+      if (this.totalClicks === 30) this.OutOFFlips();
       card.classList.add("visible");
 
       if (this.cardToCheck) {
