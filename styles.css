@@ -13,7 +13,6 @@ body {
   text-align: center;
   font-size: 8em;
 }
-
 .game-info-container {
   grid-column: 1 / -1;
   display: flex;
