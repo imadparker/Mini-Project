@@ -1,18 +1,21 @@
 html {
   min-height: 100vh;
+  
 }
+
 body {
   margin: 0;
   background: radial-gradient(brown , black);
 }
 
 .page-title {
-  color: goldenrod;
+  color:rgb(217, 165, 32);
   font-family:  serif;
   font-weight: normal;
   text-align: center;
   font-size: 8em;
 }
+
 .game-info-container {
   grid-column: 1 / -1;
   display: flex;
