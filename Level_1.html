@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pick-And-Choose</title>
+  <link rel="stylesheet" href="Level_1.css">
+  <script src="Level_1.js" type="module"></script>
+</head>
+<body>
+  <h1 class="page-title">Pick-And-Choose</h1>
+  <div class="overlay-text visible">
+    <center>Game Info  :- 
+    <br> 1.There are 4 Levels each gets harder as you progress 
+    <br> 2.To win a Level you need to match all the cards before time gets over or flips  
+    <br> 3.Level 1 and 2 are having 40 as the flip limit and Level 3 and 4 have 30 as flip limit   
+   <br>Click To Start </center>  
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    Times Ups 
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="Out-OF-Flips-text" class="overlay-text">
+    Out OF Flips
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+      Time &nbsp;<span id="time-remaining">60</span>
+      </div>
+      <div class="game-info">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flips &nbsp;<span id="flips">0</span>
+      <a href="Level_2.html">
+        <button
+          style="
+           background: radial-gradient(brown , black);
+          color:goldenrod;
+          border-radius: 8px;
+          height: 50px;
+          width: 200px;
+          font-size: 0.4em;
+          font-family: serif;">
+          Click For Level 2
+        </button>
+      </a>  
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+     <img class="card-value" src="Assets/Images/Blue.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Blue.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+      <img class="card-value" src="Assets/Images/Green.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Green.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Orange.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Orange.jpg">
+      </div>
+    </div>
+    <div class="card"> 
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Red.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Red.jpg">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

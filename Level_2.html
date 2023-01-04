@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pick-And-Choose</title>
+  <link rel="stylesheet" href="Level_2.css">
+  <script src="Level_2.js" type="module"></script>
+</head>
+<body>
+  <h1 class="page-title">Pick-And-Choose</h1>
+  <div class="overlay-text visible">
+    Click To Start 
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    Times Ups 
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="Out-OF-Flips-text" class="overlay-text">
+    Out OF Flips
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    VICTORY
+    <span class="overlay-text-small">Click to Restart</span>
+  </div>
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        <a href="Level_1.html">
+          <button
+            style="
+             background: radial-gradient(brown , black);
+            color:goldenrod;
+            border-radius: 8px;
+            height: 50px;
+            width: 200px;
+            font-size: 0.4em;
+            font-family: serif;">
+            Click For Level 1
+          </button>
+        </a>  
+      Time &nbsp;<span id="time-remaining">60</span>
+      </div>
+      <div class="game-info">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flips &nbsp;<span id="flips">0</span>
+      <a href="Level_3.html">
+        <button
+          style="
+           background: radial-gradient(brown , black);
+          color:goldenrod;
+          border-radius: 8px;
+          height: 50px;
+          width: 200px;
+          font-size: 0.4em;
+          font-family: serif;">
+          Click For Level 3
+        </button>
+      </a>  
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+     <img class="card-value" src="Assets/Images/Blue.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Blue.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Cyan.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Cyan.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+      <img class="card-value" src="Assets/Images/Green.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Green.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Magenta.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Magenta.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Orange.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Orange.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Purple.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Purple.jpg">
+      </div>
+    </div>
+    <div class="card"> 
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+       <img class="card-value" src="Assets/Images/Red.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Red.jpg">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+         </div>
+      <div class="card-front card-face">
+      <img class="card-value" src="Assets/Images/Teal.jpg">
+       </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="card-back" src="Assets/Images/card_back1.jpg">
+         </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/Teal.jpg">
+       </div>
+    </div>
+  </div>
+</body>
+</html>
